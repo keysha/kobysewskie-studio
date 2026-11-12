@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pl" data-ui="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kobysewskie Studio</title>
+<meta name="description" content="Kobysewskie Studio: gry i projekty. Great March, kolejna gra wkrótce.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="glow"><i class="g1"></i><i class="g2"></i><i class="g3"></i></div>
+<header><div class="wrap bar">
+  <a class="logo" href="#"><span class="mark"></span>Kobysewskie Studio</a>
+  <nav>
+    <a href="#games"><span data-lang="pl">Gry</span><span data-lang="en">Games</span></a>
+    <a href="#projects"><span data-lang="pl">Projekty</span><span data-lang="en">Projects</span></a>
+    <a href="about.html"><span data-lang="pl">O nas</span><span data-lang="en">About</span></a>
+    <a href="#contact"><span data-lang="pl">Kontakt</span><span data-lang="en">Contact</span></a>
+  </nav>
+  <div class="lang"><button data-set="pl">PL</button><button data-set="en">EN</button></div>
+</div></header>
+
+<main class="wrap">
+  <section class="hero">
+    <h1><span data-lang="pl">Małe studio, <em>wielki marsz.</em></span><span data-lang="en">A small studio, <em>a great march.</em></span></h1>
+    <p data-lang="pl">[Jedno zdanie o studiu: kim jesteście i co robicie. Tekst zastępczy.]</p>
+    <p data-lang="en">[One sentence about the studio: who you are and what you make. Placeholder.]</p>
+    <div class="row">
+      <a class="btn primary" href="#games"><span data-lang="pl">Zobacz gry</span><span data-lang="en">See the games</span></a>
+      <a class="btn ghost" href="#contact"><span data-lang="pl">Napisz do nas</span><span data-lang="en">Get in touch</span></a>
+    </div>
+  </section>
+
+  <section id="games">
+    <div class="head"><h2><span data-lang="pl">Gry</span><span data-lang="en">Games</span></h2><p data-lang="pl">To, w co można już grać, i to, co w drodze.</p><p data-lang="en">What you can play now, and what is on the way.</p></div>
+    <div class="grid">
+      <article class="tile wide">
+        <span class="badge"><span data-lang="pl">Graj teraz</span><span data-lang="en">Play now</span></span>
+        <div class="media"><img src="assets/banner.gif" alt="Great March"></div>
+        <div class="body">
+          <h3>Great March</h3>
+          <p data-lang="pl">Budujesz miasto, wysyłasz armię, która sama maszeruje w prawo i zamienia każdą przeszkodę w surowiec. Darmowa wersja przeglądarkowa, Steam we wczesnym dostępie w 2027.</p>
+          <p data-lang="en">Build a town, send out an army that marches right on its own and turns every obstacle into a resource. Free in the browser, Steam Early Access in 2027.</p>
+          <div class="actions">
+            <a class="btn primary" href="https://dudek.itch.io/great-march"><span data-lang="pl">Zagraj w przeglądarce</span><span data-lang="en">Play in your browser</span></a>
+            <span class="btn ghost" aria-disabled="true"><span data-lang="pl">Steam: wkrótce</span><span data-lang="en">Steam: soon</span></span>
+          </div>
+        </div>
+      </article>
+      <article class="tile soon" style="grid-column: 4 / span 6;">
+        <span class="badge soft">Coming soon</span>
+        <div class="media"><span>?</span></div>
+        <div class="body">
+          <h3><span data-lang="pl">[Druga gra]</span><span data-lang="en">[Second game]</span></h3>
+          <p data-lang="pl">[Jedno zdanie zapowiedzi albo nic. Tekst zastępczy.]</p>
+          <p data-lang="en">[A one-line teaser or nothing. Placeholder.]</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="head"><h2><span data-lang="pl">Projekty</span><span data-lang="en">Projects</span></h2><p data-lang="pl">[Twoje kafelki: nazwa sekcji do ustalenia.]</p><p data-lang="en">[Your tiles: section name to be decided.]</p></div>
+    <div class="grid">
+      <article class="tile placeholder"><div class="media">[obraz 16:9]</div><div class="body"><h3>[Kafelek 1]</h3><p data-lang="pl">[Opis. Tekst zastępczy.]</p><p data-lang="en">[Description. Placeholder.]</p></div></article>
+      <article class="tile placeholder"><div class="media">[obraz 16:9]</div><div class="body"><h3>[Kafelek 2]</h3><p data-lang="pl">[Opis. Tekst zastępczy.]</p><p data-lang="en">[Description. Placeholder.]</p></div></article>
+      <article class="tile placeholder"><div class="media">[obraz 16:9]</div><div class="body"><h3>[Kafelek 3]</h3><p data-lang="pl">[Opis. Tekst zastępczy.]</p><p data-lang="en">[Description. Placeholder.]</p></div></article>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="head"><h2><span data-lang="pl">O nas</span><span data-lang="en">About</span></h2></div>
+    <div class="about">
+      <div class="card teaser">
+        <p data-lang="pl">[Dwa zdania o studiu jako zajawka. Tekst zastępczy.]</p>
+        <p data-lang="en">[Two sentences about the studio as a teaser. Placeholder.]</p>
+        <p><a class="btn ghost" href="about.html"><span data-lang="pl">Poznaj nas bliżej</span><span data-lang="en">Meet the studio</span></a></p>
+      </div>
+      <div class="card" id="contact">
+        <h3 style="margin:0 0 8px;font-family:var(--font-display)"><span data-lang="pl">Kontakt</span><span data-lang="en">Contact</span></h3>
+        <ul>
+          <li>[e-mail]</li>
+          <li><a href="https://dudek.itch.io/great-march">itch.io</a></li>
+          <li>[Steam, social: do uzupełnienia]</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap">
+  <div>© 2026 Kobysewskie Studio</div>
+  <div>kobysewskie.studio</div>
+</footer>
+
+<script src="site.js"></script>
+</body>
+</html>
